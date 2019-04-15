@@ -14,4 +14,15 @@
     border: 1px solid #fff;  /* For debugging */
     width: 900px;
   }
-  
+  .menu-container {
+    /*Add the following line to our .menu-container rule 
+    to turn it into a flex container:  */
+    display: flex;
+    justify-content: center; /*define the horizontal alignement*/
+  }
+  .menu {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+  }
